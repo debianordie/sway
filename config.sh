@@ -1,7 +1,7 @@
 #!/bin/sh
 . ~/.dod
 
-ensure_dod_module 'desktop'
+run_dod_module 'desktop'
 
 package install sway
 
